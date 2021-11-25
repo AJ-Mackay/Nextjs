@@ -1,12 +1,8 @@
 import Link from 'next/link';
 
-import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";
-
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <h1>Homepage</h1>
       <p>
         Stretch out on bed lick plastic bags but side-eyes your *jerk* other
@@ -18,7 +14,6 @@ export default function Home() {
       <Link href="/ninjas">
         <a>See Ninja Listing</a>
       </Link>
-      <Footer />
     </div>
   );
 }
