@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 
@@ -13,6 +15,9 @@ export default function Home() {
         claws on the human`s belly and purr like a lawnmower. Pooping rainbow
         while flying in a toasted bread costume in space. Mew mew.
       </p>
+      <Link href="/ninjas">
+        <a>See Ninja Listing</a>
+      </Link>
       <Footer />
     </div>
   );
